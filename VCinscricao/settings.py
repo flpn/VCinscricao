@@ -25,7 +25,8 @@ SECRET_KEY = 'dx*5*=d#lx$agy+=n7e@x*m3mba^s3^lcl!27m4lu*(3pe2c(v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.106']
+# ALLOWED_HOSTS = ['192.168.0.106']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -37,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'VCinscricao.formularios',
+    'formularios',
 ]
 
 MIDDLEWARE = [
